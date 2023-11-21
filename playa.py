@@ -7,7 +7,6 @@ def test(n, f, tests, type_=None):
             if type_ == 'img':
                 assert sum(r+g+b+a for r,g,b,a in ImageChops.difference(f(*inputs_), Image.open(output_)).getdata()) < 10
             else:
-                print(n, f(*inputs_))
                 assert f(*inputs_) == output_
             success += 1
         except AssertionError:
