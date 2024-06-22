@@ -19,7 +19,7 @@ Un número positivo en una celda indica que el oleaje va hacia la costa, mientra
 Ayuda a Yasna a equilibrar sus calorías (en caso de que utilice bibliotecas externas debe agregarlas en requirements.txt)
 
 ## Parte 1: Calorías consumidas
-Implementa la función select_food en utils.py para selecciona los alimentos (no se pueden dejar sobras de lo comprado) que  que retorna un diccionario con 2 items:
+Implementa la función select_food en utils.py para selecciona los alimentos (no se pueden dejar sobras de lo comprado) que retorna un diccionario con 2 items:
 * consumed_energy: Número de kilocalorías consumidas
 * consumed_food: Lista de enteros, donde cada entero indica la posición del alimento seleccionado a consumir (conteo desdse 0)
 Y se recibe 2 parámetros:
