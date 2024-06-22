@@ -26,7 +26,7 @@ tests2 = [
     (([[1, 0, -1],[1, 0, -1], [1, 'B', -1]],), {'burning': 0, 'steps': 5})
 ]
 tests3 = [
-    (([('Sandía', 10), ('Helado', 1), ('Cuchuflí', 0.3), ('Palmera', 0.1)], [[0, 0, 0],[0, 0, 0], [0, 'B', 0]]), {'net_energy': 0.1, 'burning_rate': 0.8, 'consumendfood': {'Sandía': 10, 'Helado': 1, 'Cuchuflí': 0.3}}),
+    (([('Sandía', 10), ('Helado', 1), ('Cuchuflí', 0.3), ('Palmera', 0.1)], [[0, 0, 0],[0, 0, 0], [0, 'B', 0]]), {'net_energy': 0.1, 'burning_rate': 0.8, 'consumedfood': {'Sandía': 10, 'Helado': 1, 'Cuchuflí': 0.3}}),
     ]
 
 test(1, select_food, tests1)
